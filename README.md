@@ -1,6 +1,7 @@
-# Hi, I'm Gaurav Shinde 👋
+# Hi, I'm Gaurav Abasaheb Shinde 👋
 
-Data Analyst with a strong focus on **SQL-driven analysis** and **business intelligence dashboards**.  
+Data Analyst with a strong focus on **business-driven analytics**, **SQL-based insights**, and **executive-ready dashboards**. 
+
 I enjoy turning raw data into clear insights that support **profitability, performance tracking, and decision-making**.
 
 ---
@@ -18,29 +19,29 @@ I enjoy turning raw data into clear insights that support **profitability, perfo
 
 ## 📊 Featured Projects
 
-- **Aurix Motors – EV Business Performance Analysis** (Power BI)  
-  Business performance analysis covering revenue, margins, operations, and customer trends in the EV industry.
+- **Quick Commerce Performance Analysis – Blinkit (Tableau)**  
+  Business performance and sales analysis focused on quick-commerce operations and growth trends.
 
-- **Real Estate Market Analysis** (Power BI)  
-  Analysis of property pricing, features, condition, and agent performance using business-focused dashboards.
+- **Aurix Motors – Business Performance Analysis (PowerBi)**  
+  End-to-end EV business analysis covering revenue, margins, operations, and customer insights.
 
-- **Digital Payments Dashboard** (Power BI)  
-  Dashboard analyzing digital payment trends, transaction volumes, and growth patterns.
+- **Real Estate Pricing and Performance Analysis (PowerBi)**  
+  Analysis of property pricing efficiency, features, condition, and agent-level performance.
 
-- **Air Quality Index Analysis – USA** (Python)  
-  Exploratory data analysis of air pollution trends and AQI indicators across U.S. regions.
+- **Digital Payments Growth and Usage Analysis (PowerBi)**  
+  Study of transaction trends, adoption patterns, and growth dynamics in digital payments.
 
-- **Music Retail Store Analysis** (SQL)  
-  SQL-based analysis of sales performance, customer behavior, and product trends.
+- **Air Quality Trends and Impact Analysis (Python)**  
+  Exploratory analysis of air pollution trends and AQI indicators across U.S. regions.
 
-- **Library Management Analysis** (SQL)  
-  Database-driven analysis of library operations and usage patterns.
-
+- **Retail Sales and Customer Insights (SQL)**  
+  SQL-driven analysis of retail sales performance and customer behavior.
 
 ---
 
-## 🔗 Links
+## 🔗 Connect With Me
 
+- **Email:** gauravshinde0363@gmail.com 
 - **LinkedIn:** [gaurav-shinde](https://www.linkedin.com/in/gaurav-shinde-897036306/)  
 - **Tableau Public:** [gauravshinde17](https://public.tableau.com/app/profile/gauravshinde17/vizzes)  
 - **Kaggle:** [gauravshinde017](https://www.kaggle.com/gauravshinde017)
