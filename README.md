@@ -1,41 +1,36 @@
-# Hi, I'm Gaurav Abasaheb Shinde 👋
+# Hi, I'm Gaurav Shinde 👋
 
-Data Analyst with a strong focus on **business-driven analytics**, **SQL-based insights**, and **executive-ready dashboards**. 
+I focus on data analytics using SQL, Python, Power BI, and Tableau.  
+I work on real-world datasets to understand performance, growth trends, pricing patterns, and operational insights.
 
-I enjoy turning raw data into clear insights that support **profitability, performance tracking, and decision-making**.
-
----
-
-## 🧰 Skills & Tools
-
-- **Languages:** SQL, Python  
-- **BI & Visualization:** Power BI, Tableau  
-- **Data Analysis:** EDA, KPI analysis, trend analysis  
-- **Databases:** MySQL  
-- **Other:** Excel, GitHub
+My goal is to turn raw data into clear, structured analysis that supports better decision-making.
 
 ---
 
+- **Analytical Tools:** SQL, Python  
+- **Business Intelligence:** Power BI, Tableau  
+- **Data Techniques:** Exploratory Data Analysis, KPI Frameworks, Trend & Variance Analysis  
+- **Database Systems:** MySQL  
+- **Reporting & Documentation:** Excel, GitHub
 
-## 📊 Featured Projects
+--- 
+
+## Projects
 
 - **Quick Commerce Performance Analysis – Blinkit (Tableau)**  
-  Business performance and sales analysis focused on quick-commerce operations and growth trends.
+  Analysis of sales trends, operational performance, and growth patterns in quick commerce.
 
 - **Aurix Motors – Business Performance Analysis (PowerBi)**  
-  End-to-end EV business analysis covering revenue, margins, operations, and customer insights.
+  EV industry analysis covering revenue, margins, production, and customer insights.
 
 - **Real Estate Pricing and Performance Analysis (PowerBi)**  
-  Analysis of property pricing efficiency, features, condition, and agent-level performance.
-
-- **Digital Payments Growth and Usage Analysis (PowerBi)**  
-  Study of transaction trends, adoption patterns, and growth dynamics in digital payments.
+  Study of property pricing, feature impact, and agent-level performance.
 
 - **Air Quality Trends and Impact Analysis (Python)**  
-  Exploratory analysis of air pollution trends and AQI indicators across U.S. regions.
+  Regional air pollution analysis and trend interpretation.
 
 - **Retail Sales and Customer Insights (SQL)**  
-  SQL-driven analysis of retail sales performance and customer behavior.
+  SQL-based analysis of retail sales and customer behavior.
 
 ---
 
