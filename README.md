@@ -1,97 +1,54 @@
 # Hi, I'm Gaurav Shinde 👋
 
-I am a data analytics and analytics engineering professional focused on building structured, end-to-end analytical projects using SQL, Python, Power BI, and Tableau.
+Data Engineer / Analytics Engineer building SQL-first pipelines and warehouses on Azure, Databricks, and Snowflake — from raw ingestion through to production-ready dashboards.
 
-I work on real-world and large-scale datasets to analyze performance trends, operational efficiency, pricing patterns, customer behavior, financial metrics, and governance frameworks.
-
-My approach combines:
-- Data extraction, ingestion & cleaning
-- Warehouse design and SQL-first modeling
-- Analytical KPI frameworks and governance
-- Business-focused, multi-dashboard design
+I design and build end-to-end data systems: ingestion pipelines, layered warehouse architectures (Bronze/Silver/Gold, star schema), and the analytical layer on top — with an emphasis on pipeline infrastructure over one-off analysis.
 
 ---
 
-## 🛠 Tools & Technologies
+## 🛠 Tech Stack
 
-### 🐍 Python
-- JSON parsing & API-based data extraction
-- Data cleaning and preprocessing (Pandas, NumPy)
-- Exploratory Data Analysis
-- Feature engineering
-- Trend, pattern, and regulatory analysis
-
-### 🗄 SQL (MySQL)
-- Star schema and warehouse data modeling
-- Fact & dimension table design
-- Window functions (LAG, ranking, growth analysis)
-- KPI definition and governance
-- View-based analytical layer architecture
-- Aggregation logic and performance queries
-
-### 📊 Power BI
-- Semantic model design
-- Relationship management
-- Multi-page analytical dashboards (6–15 pages)
-- Share %, weighted metrics, and structured KPIs
-- Power Query for data transformation
-- DAX for efficiency ratios and calculated measures
-
-### 📈 Tableau
-- Interactive dashboards
-- Geographic and time-series visualization
-- Exploratory analytical storytelling
-
-### 📄 Excel
-- Pivot tables
-- KPI tracking
-- Sales trend analysis and structured reporting
+| Category | Tools |
+|---|---|
+| Languages | Python, SQL (MySQL) |
+| Cloud & Platforms | Azure (ADF, ADLS Gen2, Synapse Analytics, Key Vault), Microsoft Fabric, AWS (Glue, Lambda, S3) |
+| Processing | Apache Spark / PySpark, Azure Databricks, Apache NiFi |
+| Warehousing | Snowflake, star schema / dimensional modeling, SCD Type 2 |
+| Orchestration & Infra | Azure Data Factory, Docker, Terraform |
+| BI & Visualization | Power BI (DAX, Power Query, Direct Lake), Tableau, Excel |
 
 ---
 
 ## 📊 Featured Projects
 
-### 🔹 LLM Governance & Cost Benchmarking Framework 
-SQL-first analytics engineering project benchmarking 5 LLM providers (OpenAI, Anthropic, Google, Cohere, Mistral) across 3 fintech workloads — evaluating cost efficiency, hallucination risk, and misallocation impact using Python, MySQL, and Power BI.
+### 🔹 Version-Aware Earthquake Event Data Platform
+Production-style Azure data platform for USGS earthquake events, solving for mutable source records with an append-only, version-aware history layer (deterministic version IDs, `is_latest` flags, freshness SLA tracking) rather than a simple overwrite pipeline.
+**Workflow:** USGS FDSN Event API → Azure Data Factory → ADLS Gen2 (Bronze) → Azure Databricks/PySpark → Silver Delta → Gold Delta → Azure Synapse SQL serving layer → Power BI.
+
+### 🔹 LLM Governance & Cost Benchmarking Framework
+SQL-first analytics engineering project benchmarking 5 LLM providers across 3 fintech workloads for cost efficiency, hallucination risk, and misallocation impact. 3-layer SQL transformation architecture, 21 models, 104 tests, 6 Power BI dashboards.
 > Core finding: The biggest problem is not the vendor. It is the allocation policy.
 
 ### 🔹 PhonePe Pulse – Fintech Performance Analytics
-End-to-end fintech analytics project (2018–2024) analyzing digital adoption, merchant monetization, engagement depth, and regional performance using Python, MySQL, and Power BI.
+End-to-end fintech analytics warehouse (2018–2024) analyzing digital adoption, merchant monetization, and regional performance. Star schema with 22 named SQL views across staging/dimension/fact layers, Power BI dashboards.
 
-### 🔹 Aurix Motors – EV Business Performance Analysis
-Comprehensive EV manufacturer performance analysis ($26B revenue, 676K units) covering revenue, cost structure, operations, workforce productivity, and customer satisfaction across Asia, Europe, and North America using Power BI.
+### 🔹 Real-Time Streaming Pipeline – NiFi to Snowflake
+Streaming pipeline flowing generated data through Apache NiFi (Docker on EC2) → S3 → Snowpipe → Snowflake Stream/Task, maintaining full SCD Type 2 history on the target table.
 
-### 🔹 Real Estate Market Analysis
-15+ page Power BI project evaluating pricing efficiency, agent and office performance, ownership concentration, and neighborhood-level value drivers across Austin, Dallas, and Houston (~10,000 listings).
-
-### 🔹 Global Terrorism Trends & Operational Dynamics
-Long-term (1970–2020) exploratory and descriptive analysis using Python and Tableau to understand geographic distribution, attack patterns, and structural trends across 5 decades of GTD data.
-
-### 🔹 AQI Chronicle – Air Quality Trends & Impact Analysis
-Environmental data analysis project recomputing AQI from raw EPA concentrations using official breakpoint formulas, studying long-term pollution trends across 47 U.S. states and 1.7M records (2000–2016).
-
-### 🔹 Airbnb Impact of Regulations
-Market dynamics analysis of 250,000+ listings and 5M+ reviews across 10 global cities, examining how regulations shaped listing volume, pricing behavior, and platform confidence over time using Python.
-
-### 🔹 Music Retail Store – SQL Analytics
-SQL-based business analysis uncovering top-selling tracks, genre preferences, country-level customer behavior, and employee sales performance through complex queries and aggregations.
-
-### 🔹 Pizza Sales Dashboard
-Excel-based sales analytics dashboard analyzing order patterns, peak hours, seasonal trends, ingredient usage, and high-value customer behavior using pivot tables and dynamic charts.
+### 🔹 Spotify ETL Pipeline
+Serverless ETL pipeline (AWS Lambda + S3 + Snowpipe) landing Spotify data into a Snowflake `MUSIC_CATALOG` warehouse (Artists, Albums, Tracks). Includes a parallel AWS Glue/PySpark batch variant.
 
 ---
 
-## 📌 What My Projects Demonstrate
+## 📈 Additional Analytics Projects
 
-- Analytics engineering: warehouse design, SQL-first architecture, view layers
-- LLM governance and cost benchmarking (fintech context)
-- Structured data modeling (star schema thinking)
-- Analytical KPI design and governance
-- Growth, variance, and regulatory impact analysis
-- Multi-dashboard architecture planning (6–15 page dashboards)
-- Monetization, profitability, and efficiency evaluation
-- Performance benchmarking across regions, models, and products
-- Clear business-oriented storytelling across domains
+- **Aurix Motors** – EV manufacturer performance analysis ($26B revenue, 676K units) across revenue, cost, operations, and customer satisfaction in Power BI
+- **Real Estate Market Analysis** – 15+ page Power BI project on pricing efficiency and agent/office performance across ~10,000 Austin/Dallas/Houston listings
+- **Global Terrorism Trends** – 5-decade (1970–2020) exploratory analysis of attack patterns and geographic distribution in Python and Tableau
+- **AQI Chronicle** – Recomputed AQI from raw EPA concentrations using official breakpoint formulas across 47 U.S. states, 1.7M records
+- **Airbnb Impact of Regulations** – Regulatory impact on pricing and listing volume across 250,000+ listings and 5M+ reviews in 10 global cities
+- **Music Retail Store** – SQL-only analysis of sales performance, genre preferences, and customer behavior
+- **Pizza Sales Dashboard** – Excel pivot-table dashboard on order patterns and peak-hour trends
 
 ---
 
@@ -104,6 +61,4 @@ Excel-based sales analytics dashboard analyzing order patterns, peak hours, seas
 
 ---
 
-Thank you for visiting my profile.
-I am continuously building my analytical and engineering skills through hands-on, end-to-end projects.
-I am currently expanding into data engineering — focused on data pipelines, warehouse design, and scalable data processing.
+*Actively building toward production-grade data engineering — pipelines, warehouse design, and scalable processing on Azure and Fabric.*
